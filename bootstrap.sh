@@ -2,7 +2,8 @@
 set -e
 
 sudo pacman -Syu --needed \
-  neovim
+  neovim \
+  wl-clipboard
 
 cd ~
 git clone https://aur.archlinux.org/verible.git
