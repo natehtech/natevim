@@ -3,6 +3,9 @@ set -e
 
 sudo pacman -Syu --needed \
   neovim \
+  base-devel \
+  gcc \
+  clang \
   wl-clipboard
 
 cd ~
